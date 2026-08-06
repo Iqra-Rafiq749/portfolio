@@ -537,7 +537,7 @@ footer{
     }
 }
 
-@media (max-width:671){
+@media (max-width:671px){
     .home-image img{
         width: 70vw;
         margin-top: 8rem;
@@ -549,7 +549,7 @@ footer{
     }
 }
 
-@media (max-width:671){
+@media (max-width:671px){
     html{
         font-size: 50%;
     }

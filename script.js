@@ -2,12 +2,14 @@ let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = ()=>{
-    menu.classList.toggle('fa-solid fa-x');
+    menu.classList.toggle('fa-x');
+    menu.classList.toggle('fa-bars');
     navbar.classList.toggle('active');
 }
 
 window.onscroll = ()=>{
-    menu.classList.remove('fa-solid fa-x');
+    menu.classList.remove('fa-x');
+    menu.classList.add('fa-bars');
     navbar.classList.remove('active');
 }
 
